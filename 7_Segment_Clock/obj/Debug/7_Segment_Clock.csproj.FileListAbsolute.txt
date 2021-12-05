@@ -1,0 +1,10 @@
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\bin\Debug\7_Segment_Clock.exe.config
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\bin\Debug\7_Segment_Clock.exe
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\bin\Debug\7_Segment_Clock.pdb
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\obj\Debug\7_Segment_Clock.csproj.AssemblyReference.cache
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\obj\Debug\_7_Segment_Clock.Form1.resources
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\obj\Debug\_7_Segment_Clock.Properties.Resources.resources
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\obj\Debug\7_Segment_Clock.csproj.GenerateResource.cache
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\obj\Debug\7_Segment_Clock.csproj.CoreCompileInputs.cache
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\obj\Debug\7_Segment_Clock.exe
+X:\School\Visual Studio\Repository\7_Segment_Clock\7_Segment_Clock\obj\Debug\7_Segment_Clock.pdb
