@@ -15,9 +15,11 @@ namespace _7_Segment_Clock
     {
         int seconds;
         string sec;
-
         int seconds2;
         string sec2;
+
+        int minutes;
+        string min;
 
         public Form1()
         {
@@ -214,11 +216,124 @@ namespace _7_Segment_Clock
                 S2F.PerformClick();
                 S2G.PerformClick();
             }
-            
+
+
+            min = DateTime.Now.ToString("mm");
+            minutes = Convert.ToInt32(min.Substring(min.Length - 1));
+
+            if (minutes == 0)
+            {
+                M1A.PerformClick();
+                M1B.PerformClick();
+                M1C.PerformClick();
+                M1D.PerformClick();
+                M1E.PerformClick();
+                M1F.PerformClick();
+                M1G.UseVisualStyleBackColor = true;
+            }
+
+            else if (minutes == 1)
+            {
+                M1A.UseVisualStyleBackColor = true;
+                M1B.PerformClick();
+                M1C.PerformClick();
+                M1D.UseVisualStyleBackColor = true;
+                M1E.UseVisualStyleBackColor = true;
+                M1F.UseVisualStyleBackColor = true;
+                M1G.UseVisualStyleBackColor = true;
+            }
+
+            else if (minutes == 2)
+            {
+                M1A.PerformClick();
+                M1B.PerformClick();
+                M1C.UseVisualStyleBackColor = true;
+                M1D.PerformClick();
+                M1E.PerformClick();
+                M1F.UseVisualStyleBackColor = true;
+                M1G.PerformClick();
+            }
+
+            else if (minutes == 3)
+            {
+                M1A.PerformClick();
+                M1B.PerformClick();
+                M1C.PerformClick();
+                M1D.PerformClick();
+                M1E.UseVisualStyleBackColor = true;
+                M1F.UseVisualStyleBackColor = true;
+                M1G.PerformClick();
+            }
+
+            else if (minutes == 4)
+            {
+                M1A.UseVisualStyleBackColor = true;
+                M1B.PerformClick();
+                M1C.PerformClick();
+                M1D.UseVisualStyleBackColor = true;
+                M1E.UseVisualStyleBackColor = true;
+                M1F.PerformClick();
+                M1G.PerformClick();
+            }
+
+            else if (minutes == 5)
+            {
+                M1A.PerformClick();
+                M1B.UseVisualStyleBackColor = true;
+                M1C.PerformClick();
+                M1D.PerformClick();
+                M1E.UseVisualStyleBackColor = true;
+                M1F.PerformClick();
+                M1G.PerformClick();
+            }
+
+            else if (minutes == 6)
+            {
+                M1A.PerformClick();
+                M1B.UseVisualStyleBackColor = true;
+                M1C.PerformClick();
+                M1D.PerformClick();
+                M1E.PerformClick();
+                M1F.PerformClick();
+                M1G.PerformClick();
+            }
+
+            else if (minutes == 7)
+            {
+                M1A.PerformClick();
+                M1B.PerformClick();
+                M1C.PerformClick();
+                M1D.UseVisualStyleBackColor = true;
+                M1E.UseVisualStyleBackColor = true;
+                M1F.UseVisualStyleBackColor = true;
+                M1G.UseVisualStyleBackColor = true;
+            }
+
+            else if (minutes == 8)
+            {
+                M1A.PerformClick();
+                M1B.PerformClick();
+                M1C.PerformClick();
+                M1D.PerformClick();
+                M1E.PerformClick();
+                M1F.PerformClick();
+                M1G.PerformClick();
+            }
+
+            else if (minutes == 9)
+            {
+                M1A.PerformClick();
+                M1B.PerformClick();
+                M1C.PerformClick();
+                M1D.PerformClick();
+                M1E.UseVisualStyleBackColor = true;
+                M1F.PerformClick();
+                M1G.PerformClick();
+            }
 
 
         }
 
-        
+
     }
 }
