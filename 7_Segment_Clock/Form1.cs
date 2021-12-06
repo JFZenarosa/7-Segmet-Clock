@@ -36,15 +36,15 @@ namespace _7_Segment_Clock
         private void numbers(object sender, EventArgs e)
         {
             Button timeon = (Button)sender;
-            timeon.BackColor = System.Drawing.Color.DarkBlue;
+            timeon.BackColor = System.Drawing.Color.Maroon;
         }
 
         private void clock_Tick(object sender, EventArgs e)
         {
             sec = DateTime.Now.ToString("ss");
             seconds = Convert.ToInt32(sec.Substring(sec.Length - 1));
-            
-            if(seconds == 0)
+
+            if (seconds == 0)
             {
                 S1A.PerformClick();
                 S1B.PerformClick();
@@ -52,28 +52,28 @@ namespace _7_Segment_Clock
                 S1D.PerformClick();
                 S1E.PerformClick();
                 S1F.PerformClick();
-                S1G.UseVisualStyleBackColor = true;
+                S1G.BackColor = System.Drawing.Color.Transparent;
             }
 
-            else if(seconds == 1)
+            else if (seconds == 1)
             {
-                S1A.UseVisualStyleBackColor = true;
+                S1A.BackColor = System.Drawing.Color.Transparent;
                 S1B.PerformClick();
                 S1C.PerformClick();
-                S1D.UseVisualStyleBackColor = true;
-                S1E.UseVisualStyleBackColor = true;
-                S1F.UseVisualStyleBackColor = true;
-                S1G.UseVisualStyleBackColor = true;
+                S1D.BackColor = System.Drawing.Color.Transparent;
+                S1E.BackColor = System.Drawing.Color.Transparent;
+                S1F.BackColor = System.Drawing.Color.Transparent;
+                S1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (seconds == 2)
             {
                 S1A.PerformClick();
                 S1B.PerformClick();
-                S1C.UseVisualStyleBackColor = true;
+                S1C.BackColor = System.Drawing.Color.Transparent;
                 S1D.PerformClick();
                 S1E.PerformClick();
-                S1F.UseVisualStyleBackColor = true;
+                S1F.BackColor = System.Drawing.Color.Transparent;
                 S1G.PerformClick();
             }
 
@@ -83,18 +83,18 @@ namespace _7_Segment_Clock
                 S1B.PerformClick();
                 S1C.PerformClick();
                 S1D.PerformClick();
-                S1E.UseVisualStyleBackColor = true;
-                S1F.UseVisualStyleBackColor = true;
+                S1E.BackColor = System.Drawing.Color.Transparent;
+                S1F.BackColor = System.Drawing.Color.Transparent;
                 S1G.PerformClick();
             }
 
             else if (seconds == 4)
             {
-                S1A.UseVisualStyleBackColor = true;
+                S1A.BackColor = System.Drawing.Color.Transparent;
                 S1B.PerformClick();
                 S1C.PerformClick();
-                S1D.UseVisualStyleBackColor = true;
-                S1E.UseVisualStyleBackColor = true;
+                S1D.BackColor = System.Drawing.Color.Transparent;
+                S1E.BackColor = System.Drawing.Color.Transparent;
                 S1F.PerformClick();
                 S1G.PerformClick();
             }
@@ -102,10 +102,10 @@ namespace _7_Segment_Clock
             else if (seconds == 5)
             {
                 S1A.PerformClick();
-                S1B.UseVisualStyleBackColor = true;
+                S1B.BackColor = System.Drawing.Color.Transparent;
                 S1C.PerformClick();
                 S1D.PerformClick();
-                S1E.UseVisualStyleBackColor = true;
+                S1E.BackColor = System.Drawing.Color.Transparent;
                 S1F.PerformClick();
                 S1G.PerformClick();
             }
@@ -113,7 +113,7 @@ namespace _7_Segment_Clock
             else if (seconds == 6)
             {
                 S1A.PerformClick();
-                S1B.UseVisualStyleBackColor = true;
+                S1B.BackColor = System.Drawing.Color.Transparent;
                 S1C.PerformClick();
                 S1D.PerformClick();
                 S1E.PerformClick();
@@ -126,10 +126,10 @@ namespace _7_Segment_Clock
                 S1A.PerformClick();
                 S1B.PerformClick();
                 S1C.PerformClick();
-                S1D.UseVisualStyleBackColor = true;
-                S1E.UseVisualStyleBackColor = true;
-                S1F.UseVisualStyleBackColor = true;
-                S1G.UseVisualStyleBackColor = true;
+                S1D.BackColor = System.Drawing.Color.Transparent;
+                S1E.BackColor = System.Drawing.Color.Transparent;
+                S1F.BackColor = System.Drawing.Color.Transparent;
+                S1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (seconds == 8)
@@ -149,14 +149,14 @@ namespace _7_Segment_Clock
                 S1B.PerformClick();
                 S1C.PerformClick();
                 S1D.PerformClick();
-                S1E.UseVisualStyleBackColor = true;
+                S1E.BackColor = System.Drawing.Color.Transparent;
                 S1F.PerformClick();
                 S1G.PerformClick();
             }
 
 
             sec2 = DateTime.Now.ToString("ss");
-            seconds2 = Convert.ToInt32(sec.Substring(0,1));
+            seconds2 = Convert.ToInt32(sec.Substring(0, 1));
 
             if (seconds2 == 0)
             {
@@ -166,28 +166,28 @@ namespace _7_Segment_Clock
                 S2D.PerformClick();
                 S2E.PerformClick();
                 S2F.PerformClick();
-                S2G.UseVisualStyleBackColor = true;
+                S2G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (seconds2 == 1)
             {
-                S2A.UseVisualStyleBackColor = true;
+                S2A.BackColor = System.Drawing.Color.Transparent;
                 S2B.PerformClick();
                 S2C.PerformClick();
-                S2D.UseVisualStyleBackColor = true;
-                S2E.UseVisualStyleBackColor = true;
-                S2F.UseVisualStyleBackColor = true;
-                S2G.UseVisualStyleBackColor = true;
+                S2D.BackColor = System.Drawing.Color.Transparent;
+                S2E.BackColor = System.Drawing.Color.Transparent;
+                S2F.BackColor = System.Drawing.Color.Transparent;
+                S2G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (seconds2 == 2)
             {
                 S2A.PerformClick();
                 S2B.PerformClick();
-                S2C.UseVisualStyleBackColor = true;
+                S2C.BackColor = System.Drawing.Color.Transparent;
                 S2D.PerformClick();
                 S2E.PerformClick();
-                S2F.UseVisualStyleBackColor = true;
+                S2F.BackColor = System.Drawing.Color.Transparent;
                 S2G.PerformClick();
             }
 
@@ -197,18 +197,18 @@ namespace _7_Segment_Clock
                 S2B.PerformClick();
                 S2C.PerformClick();
                 S2D.PerformClick();
-                S2E.UseVisualStyleBackColor = true;
-                S2F.UseVisualStyleBackColor = true;
+                S2E.BackColor = System.Drawing.Color.Transparent;
+                S2F.BackColor = System.Drawing.Color.Transparent;
                 S2G.PerformClick();
             }
 
             else if (seconds2 == 4)
             {
-                S2A.UseVisualStyleBackColor = true;
+                S2A.BackColor = System.Drawing.Color.Transparent;
                 S2B.PerformClick();
                 S2C.PerformClick();
-                S2D.UseVisualStyleBackColor = true;
-                S2E.UseVisualStyleBackColor = true;
+                S2D.BackColor = System.Drawing.Color.Transparent;
+                S2E.BackColor = System.Drawing.Color.Transparent;
                 S2F.PerformClick();
                 S2G.PerformClick();
             }
@@ -216,10 +216,10 @@ namespace _7_Segment_Clock
             else if (seconds2 == 5)
             {
                 S2A.PerformClick();
-                S2B.UseVisualStyleBackColor = true;
+                S2B.BackColor = System.Drawing.Color.Transparent;
                 S2C.PerformClick();
                 S2D.PerformClick();
-                S2E.UseVisualStyleBackColor = true;
+                S2E.BackColor = System.Drawing.Color.Transparent;
                 S2F.PerformClick();
                 S2G.PerformClick();
             }
@@ -236,28 +236,28 @@ namespace _7_Segment_Clock
                 M1D.PerformClick();
                 M1E.PerformClick();
                 M1F.PerformClick();
-                M1G.UseVisualStyleBackColor = true;
+                M1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (minutes == 1)
             {
-                M1A.UseVisualStyleBackColor = true;
+                M1A.BackColor = System.Drawing.Color.Transparent;
                 M1B.PerformClick();
                 M1C.PerformClick();
-                M1D.UseVisualStyleBackColor = true;
-                M1E.UseVisualStyleBackColor = true;
-                M1F.UseVisualStyleBackColor = true;
-                M1G.UseVisualStyleBackColor = true;
+                M1D.BackColor = System.Drawing.Color.Transparent;
+                M1E.BackColor = System.Drawing.Color.Transparent;
+                M1F.BackColor = System.Drawing.Color.Transparent;
+                M1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (minutes == 2)
             {
                 M1A.PerformClick();
                 M1B.PerformClick();
-                M1C.UseVisualStyleBackColor = true;
+                M1C.BackColor = System.Drawing.Color.Transparent;
                 M1D.PerformClick();
                 M1E.PerformClick();
-                M1F.UseVisualStyleBackColor = true;
+                M1F.BackColor = System.Drawing.Color.Transparent;
                 M1G.PerformClick();
             }
 
@@ -267,18 +267,18 @@ namespace _7_Segment_Clock
                 M1B.PerformClick();
                 M1C.PerformClick();
                 M1D.PerformClick();
-                M1E.UseVisualStyleBackColor = true;
-                M1F.UseVisualStyleBackColor = true;
+                M1E.BackColor = System.Drawing.Color.Transparent;
+                M1F.BackColor = System.Drawing.Color.Transparent;
                 M1G.PerformClick();
             }
 
             else if (minutes == 4)
             {
-                M1A.UseVisualStyleBackColor = true;
+                M1A.BackColor = System.Drawing.Color.Transparent;
                 M1B.PerformClick();
                 M1C.PerformClick();
-                M1D.UseVisualStyleBackColor = true;
-                M1E.UseVisualStyleBackColor = true;
+                M1D.BackColor = System.Drawing.Color.Transparent;
+                M1E.BackColor = System.Drawing.Color.Transparent;
                 M1F.PerformClick();
                 M1G.PerformClick();
             }
@@ -286,10 +286,10 @@ namespace _7_Segment_Clock
             else if (minutes == 5)
             {
                 M1A.PerformClick();
-                M1B.UseVisualStyleBackColor = true;
+                M1B.BackColor = System.Drawing.Color.Transparent;
                 M1C.PerformClick();
                 M1D.PerformClick();
-                M1E.UseVisualStyleBackColor = true;
+                M1E.BackColor = System.Drawing.Color.Transparent;
                 M1F.PerformClick();
                 M1G.PerformClick();
             }
@@ -297,7 +297,7 @@ namespace _7_Segment_Clock
             else if (minutes == 6)
             {
                 M1A.PerformClick();
-                M1B.UseVisualStyleBackColor = true;
+                M1B.BackColor = System.Drawing.Color.Transparent;
                 M1C.PerformClick();
                 M1D.PerformClick();
                 M1E.PerformClick();
@@ -310,10 +310,10 @@ namespace _7_Segment_Clock
                 M1A.PerformClick();
                 M1B.PerformClick();
                 M1C.PerformClick();
-                M1D.UseVisualStyleBackColor = true;
-                M1E.UseVisualStyleBackColor = true;
-                M1F.UseVisualStyleBackColor = true;
-                M1G.UseVisualStyleBackColor = true;
+                M1D.BackColor = System.Drawing.Color.Transparent;
+                M1E.BackColor = System.Drawing.Color.Transparent;
+                M1F.BackColor = System.Drawing.Color.Transparent;
+                M1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (minutes == 8)
@@ -333,7 +333,7 @@ namespace _7_Segment_Clock
                 M1B.PerformClick();
                 M1C.PerformClick();
                 M1D.PerformClick();
-                M1E.UseVisualStyleBackColor = true;
+                M1E.BackColor = System.Drawing.Color.Transparent;
                 M1F.PerformClick();
                 M1G.PerformClick();
             }
@@ -349,28 +349,28 @@ namespace _7_Segment_Clock
                 M2D.PerformClick();
                 M2E.PerformClick();
                 M2F.PerformClick();
-                M2G.UseVisualStyleBackColor = true;
+                M2G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (minutes2 == 1)
             {
-                M2A.UseVisualStyleBackColor = true;
+                M2A.BackColor = System.Drawing.Color.Transparent;
                 M2B.PerformClick();
                 M2C.PerformClick();
-                M2D.UseVisualStyleBackColor = true;
-                M2E.UseVisualStyleBackColor = true;
-                M2F.UseVisualStyleBackColor = true;
-                M2G.UseVisualStyleBackColor = true;
+                M2D.BackColor = System.Drawing.Color.Transparent;
+                M2E.BackColor = System.Drawing.Color.Transparent;
+                M2F.BackColor = System.Drawing.Color.Transparent;
+                M2G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (minutes2 == 2)
             {
                 M2A.PerformClick();
                 M2B.PerformClick();
-                M2C.UseVisualStyleBackColor = true;
+                M2C.BackColor = System.Drawing.Color.Transparent;
                 M2D.PerformClick();
                 M2E.PerformClick();
-                M2F.UseVisualStyleBackColor = true;
+                M2F.BackColor = System.Drawing.Color.Transparent;
                 M2G.PerformClick();
             }
 
@@ -380,18 +380,18 @@ namespace _7_Segment_Clock
                 M2B.PerformClick();
                 M2C.PerformClick();
                 M2D.PerformClick();
-                M2E.UseVisualStyleBackColor = true;
-                M2F.UseVisualStyleBackColor = true;
+                M2E.BackColor = System.Drawing.Color.Transparent;
+                M2F.BackColor = System.Drawing.Color.Transparent;
                 M2G.PerformClick();
             }
 
             else if (minutes2 == 4)
             {
-                M2A.UseVisualStyleBackColor = true;
+                M2A.BackColor = System.Drawing.Color.Transparent;
                 M2B.PerformClick();
                 M2C.PerformClick();
-                M2D.UseVisualStyleBackColor = true;
-                M2E.UseVisualStyleBackColor = true;
+                M2D.BackColor = System.Drawing.Color.Transparent;
+                M2E.BackColor = System.Drawing.Color.Transparent;
                 M2F.PerformClick();
                 M2G.PerformClick();
             }
@@ -399,10 +399,10 @@ namespace _7_Segment_Clock
             else if (minutes2 == 5)
             {
                 M2A.PerformClick();
-                M2B.UseVisualStyleBackColor = true;
+                M2B.BackColor = System.Drawing.Color.Transparent;
                 M2C.PerformClick();
                 M2D.PerformClick();
-                M2E.UseVisualStyleBackColor = true;
+                M2E.BackColor = System.Drawing.Color.Transparent;
                 M2F.PerformClick();
                 M2G.PerformClick();
             }
@@ -419,28 +419,28 @@ namespace _7_Segment_Clock
                 H1D.PerformClick();
                 H1E.PerformClick();
                 H1F.PerformClick();
-                H1G.UseVisualStyleBackColor = true;
+                H1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (hours == 1)
             {
-                H1A.UseVisualStyleBackColor = true;
+                H1A.BackColor = System.Drawing.Color.Transparent;
                 H1B.PerformClick();
                 H1C.PerformClick();
-                H1D.UseVisualStyleBackColor = true;
-                H1E.UseVisualStyleBackColor = true;
-                H1F.UseVisualStyleBackColor = true;
-                H1G.UseVisualStyleBackColor = true;
+                H1D.BackColor = System.Drawing.Color.Transparent;
+                H1E.BackColor = System.Drawing.Color.Transparent;
+                H1F.BackColor = System.Drawing.Color.Transparent;
+                H1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (hours == 2)
             {
                 H1A.PerformClick();
                 H1B.PerformClick();
-                H1C.UseVisualStyleBackColor = true;
+                H1C.BackColor = System.Drawing.Color.Transparent;
                 H1D.PerformClick();
                 H1E.PerformClick();
-                H1F.UseVisualStyleBackColor = true;
+                H1F.BackColor = System.Drawing.Color.Transparent;
                 H1G.PerformClick();
             }
 
@@ -450,18 +450,18 @@ namespace _7_Segment_Clock
                 H1B.PerformClick();
                 H1C.PerformClick();
                 H1D.PerformClick();
-                H1E.UseVisualStyleBackColor = true;
-                H1F.UseVisualStyleBackColor = true;
+                H1E.BackColor = System.Drawing.Color.Transparent;
+                H1F.BackColor = System.Drawing.Color.Transparent;
                 H1G.PerformClick();
             }
 
             else if (hours == 4)
             {
-                H1A.UseVisualStyleBackColor = true;
+                H1A.BackColor = System.Drawing.Color.Transparent;
                 H1B.PerformClick();
                 H1C.PerformClick();
-                H1D.UseVisualStyleBackColor = true;
-                H1E.UseVisualStyleBackColor = true;
+                H1D.BackColor = System.Drawing.Color.Transparent;
+                H1E.BackColor = System.Drawing.Color.Transparent;
                 H1F.PerformClick();
                 H1G.PerformClick();
             }
@@ -469,10 +469,10 @@ namespace _7_Segment_Clock
             else if (hours == 5)
             {
                 H1A.PerformClick();
-                H1B.UseVisualStyleBackColor = true;
+                H1B.BackColor = System.Drawing.Color.Transparent;
                 H1C.PerformClick();
                 H1D.PerformClick();
-                H1E.UseVisualStyleBackColor = true;
+                H1E.BackColor = System.Drawing.Color.Transparent;
                 H1F.PerformClick();
                 H1G.PerformClick();
             }
@@ -480,7 +480,7 @@ namespace _7_Segment_Clock
             else if (hours == 6)
             {
                 H1A.PerformClick();
-                H1B.UseVisualStyleBackColor = true;
+                H1B.BackColor = System.Drawing.Color.Transparent;
                 H1C.PerformClick();
                 H1D.PerformClick();
                 H1E.PerformClick();
@@ -493,10 +493,10 @@ namespace _7_Segment_Clock
                 H1A.PerformClick();
                 H1B.PerformClick();
                 H1C.PerformClick();
-                H1D.UseVisualStyleBackColor = true;
-                H1E.UseVisualStyleBackColor = true;
-                H1F.UseVisualStyleBackColor = true;
-                H1G.UseVisualStyleBackColor = true;
+                H1D.BackColor = System.Drawing.Color.Transparent;
+                H1E.BackColor = System.Drawing.Color.Transparent;
+                H1F.BackColor = System.Drawing.Color.Transparent;
+                H1G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (hours == 8)
@@ -516,14 +516,14 @@ namespace _7_Segment_Clock
                 H1B.PerformClick();
                 H1C.PerformClick();
                 H1D.PerformClick();
-                H1E.UseVisualStyleBackColor = true;
+                H1E.BackColor = System.Drawing.Color.Transparent;
                 H1F.PerformClick();
                 H1G.PerformClick();
             }
 
 
             hr2 = DateTime.Now.ToString("HH");
-            hours2 = Convert.ToInt32(hr2.Substring(0,1));
+            hours2 = Convert.ToInt32(hr2.Substring(0, 1));
 
             if (hours2 == 0)
             {
@@ -533,30 +533,31 @@ namespace _7_Segment_Clock
                 H2D.PerformClick();
                 H2E.PerformClick();
                 H2F.PerformClick();
-                H2G.UseVisualStyleBackColor = true;
+                H2G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (hours2 == 1)
             {
-                H2A.UseVisualStyleBackColor = true;
+                H2A.BackColor = System.Drawing.Color.Transparent;
                 H2B.PerformClick();
                 H2C.PerformClick();
-                H2D.UseVisualStyleBackColor = true;
-                H2E.UseVisualStyleBackColor = true;
-                H2F.UseVisualStyleBackColor = true;
-                H2G.UseVisualStyleBackColor = true;
+                H2D.BackColor = System.Drawing.Color.Transparent;
+                H2E.BackColor = System.Drawing.Color.Transparent;
+                H2F.BackColor = System.Drawing.Color.Transparent;
+                H2G.BackColor = System.Drawing.Color.Transparent;
             }
 
             else if (hours2 == 2)
             {
                 H2A.PerformClick();
                 H2B.PerformClick();
-                H2C.UseVisualStyleBackColor = true;
+                H2C.BackColor = System.Drawing.Color.Transparent;
                 H2D.PerformClick();
                 H2E.PerformClick();
-                H2F.UseVisualStyleBackColor = true;
+                H2F.BackColor = System.Drawing.Color.Transparent;
                 H2G.PerformClick();
             }
+
 
         }
 
