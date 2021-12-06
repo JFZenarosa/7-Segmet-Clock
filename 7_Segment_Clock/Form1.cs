@@ -20,6 +20,8 @@ namespace _7_Segment_Clock
 
         int minutes;
         string min;
+        int minutes2;
+        string min2;
 
         public Form1()
         {
@@ -331,6 +333,74 @@ namespace _7_Segment_Clock
                 M1G.PerformClick();
             }
 
+            min2 = DateTime.Now.ToString("mm");
+            minutes2 = Convert.ToInt32(min2.Substring(0, 1));
+
+            if (minutes2 == 0)
+            {
+                M2A.PerformClick();
+                M2B.PerformClick();
+                M2C.PerformClick();
+                M2D.PerformClick();
+                M2E.PerformClick();
+                M2F.PerformClick();
+                M2G.UseVisualStyleBackColor = true;
+            }
+
+            else if (minutes2 == 1)
+            {
+                M2A.UseVisualStyleBackColor = true;
+                M2B.PerformClick();
+                M2C.PerformClick();
+                M2D.UseVisualStyleBackColor = true;
+                M2E.UseVisualStyleBackColor = true;
+                M2F.UseVisualStyleBackColor = true;
+                M2G.UseVisualStyleBackColor = true;
+            }
+
+            else if (minutes2 == 2)
+            {
+                M2A.PerformClick();
+                M2B.PerformClick();
+                M2C.UseVisualStyleBackColor = true;
+                M2D.PerformClick();
+                M2E.PerformClick();
+                M2F.UseVisualStyleBackColor = true;
+                M2G.PerformClick();
+            }
+
+            else if (minutes2 == 3)
+            {
+                M2A.PerformClick();
+                M2B.PerformClick();
+                M2C.PerformClick();
+                M2D.PerformClick();
+                M2E.UseVisualStyleBackColor = true;
+                M2F.UseVisualStyleBackColor = true;
+                M2G.PerformClick();
+            }
+
+            else if (minutes2 == 4)
+            {
+                M2A.UseVisualStyleBackColor = true;
+                M2B.PerformClick();
+                M2C.PerformClick();
+                M2D.UseVisualStyleBackColor = true;
+                M2E.UseVisualStyleBackColor = true;
+                M2F.PerformClick();
+                M2G.PerformClick();
+            }
+
+            else if (minutes2 == 5)
+            {
+                M2A.PerformClick();
+                M2B.UseVisualStyleBackColor = true;
+                M2C.PerformClick();
+                M2D.PerformClick();
+                M2E.UseVisualStyleBackColor = true;
+                M2F.PerformClick();
+                M2G.PerformClick();
+            }
 
         }
 
