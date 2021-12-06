@@ -551,7 +551,7 @@ namespace _7_Segment_Clock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1018, 304);
+            this.ClientSize = new System.Drawing.Size(1306, 304);
             this.Controls.Add(this.button45);
             this.Controls.Add(this.button46);
             this.Controls.Add(this.button44);

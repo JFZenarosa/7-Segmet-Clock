@@ -25,6 +25,8 @@ namespace _7_Segment_Clock
 
         int hours;
         string hr;
+        int hours2;
+        string hr2;
 
         public Form1()
         {
@@ -519,6 +521,42 @@ namespace _7_Segment_Clock
                 H1G.PerformClick();
             }
 
+
+            hr2 = DateTime.Now.ToString("HH");
+            hours2 = Convert.ToInt32(hr2.Substring(0,1));
+
+            if (hours2 == 0)
+            {
+                H2A.PerformClick();
+                H2B.PerformClick();
+                H2C.PerformClick();
+                H2D.PerformClick();
+                H2E.PerformClick();
+                H2F.PerformClick();
+                H2G.UseVisualStyleBackColor = true;
+            }
+
+            else if (hours2 == 1)
+            {
+                H2A.UseVisualStyleBackColor = true;
+                H2B.PerformClick();
+                H2C.PerformClick();
+                H2D.UseVisualStyleBackColor = true;
+                H2E.UseVisualStyleBackColor = true;
+                H2F.UseVisualStyleBackColor = true;
+                H2G.UseVisualStyleBackColor = true;
+            }
+
+            else if (hours2 == 2)
+            {
+                H2A.PerformClick();
+                H2B.PerformClick();
+                H2C.UseVisualStyleBackColor = true;
+                H2D.PerformClick();
+                H2E.PerformClick();
+                H2F.UseVisualStyleBackColor = true;
+                H2G.PerformClick();
+            }
 
         }
 
