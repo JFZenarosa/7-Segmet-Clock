@@ -16,6 +16,9 @@ namespace _7_Segment_Clock
         int seconds;
         string sec;
 
+        int seconds2;
+        string sec2;
+
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +27,7 @@ namespace _7_Segment_Clock
         private void numbers(object sender, EventArgs e)
         {
             Button timeon = (Button)sender;
-            timeon.BackColor = System.Drawing.Color.Red;
+            timeon.BackColor = System.Drawing.Color.Black;
         }
 
         private void clock_Tick(object sender, EventArgs e)
@@ -141,6 +144,81 @@ namespace _7_Segment_Clock
                 S1F.PerformClick();
                 S1G.PerformClick();
             }
+
+
+            sec2 = DateTime.Now.ToString("ss");
+            seconds2 = Convert.ToInt32(sec.Substring(0,1));
+
+            if (seconds2 == 0)
+            {
+                S2A.PerformClick();
+                S2B.PerformClick();
+                S2C.PerformClick();
+                S2D.PerformClick();
+                S2E.PerformClick();
+                S2F.PerformClick();
+                S2G.UseVisualStyleBackColor = true;
+            }
+
+            else if (seconds2 == 1)
+            {
+                S2A.UseVisualStyleBackColor = true;
+                S2B.PerformClick();
+                S2C.PerformClick();
+                S2D.UseVisualStyleBackColor = true;
+                S2E.UseVisualStyleBackColor = true;
+                S2F.UseVisualStyleBackColor = true;
+                S2G.UseVisualStyleBackColor = true;
+            }
+
+            else if (seconds2 == 2)
+            {
+                S2A.PerformClick();
+                S2B.PerformClick();
+                S2C.UseVisualStyleBackColor = true;
+                S2D.PerformClick();
+                S2E.PerformClick();
+                S2F.UseVisualStyleBackColor = true;
+                S2G.PerformClick();
+            }
+
+            else if (seconds2 == 3)
+            {
+                S2A.PerformClick();
+                S2B.PerformClick();
+                S2C.PerformClick();
+                S2D.PerformClick();
+                S2E.UseVisualStyleBackColor = true;
+                S2F.UseVisualStyleBackColor = true;
+                S2G.PerformClick();
+            }
+
+            else if (seconds2 == 4)
+            {
+                S2A.UseVisualStyleBackColor = true;
+                S2B.PerformClick();
+                S2C.PerformClick();
+                S2D.UseVisualStyleBackColor = true;
+                S2E.UseVisualStyleBackColor = true;
+                S2F.PerformClick();
+                S2G.PerformClick();
+            }
+
+            else if (seconds2 == 5)
+            {
+                S2A.PerformClick();
+                S2B.UseVisualStyleBackColor = true;
+                S2C.PerformClick();
+                S2D.PerformClick();
+                S2E.UseVisualStyleBackColor = true;
+                S2F.PerformClick();
+                S2G.PerformClick();
+            }
+            
+
+
         }
+
+        
     }
 }

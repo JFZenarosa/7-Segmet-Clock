@@ -77,6 +77,7 @@ namespace _7_Segment_Clock
             this.button45 = new System.Windows.Forms.Button();
             this.button46 = new System.Windows.Forms.Button();
             this.clock = new System.Windows.Forms.Timer(this.components);
+            this.clock2 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // H2A
@@ -541,6 +542,11 @@ namespace _7_Segment_Clock
             this.clock.Interval = 1;
             this.clock.Tick += new System.EventHandler(this.clock_Tick);
             // 
+            // clock2
+            // 
+            this.clock2.Enabled = true;
+            this.clock2.Interval = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -647,6 +653,7 @@ namespace _7_Segment_Clock
         private System.Windows.Forms.Button button45;
         private System.Windows.Forms.Button button46;
         private System.Windows.Forms.Timer clock;
+        private System.Windows.Forms.Timer clock2;
     }
 }
 
