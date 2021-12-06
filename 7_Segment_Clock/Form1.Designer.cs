@@ -85,6 +85,7 @@ namespace _7_Segment_Clock
             // 
             // H2A
             // 
+            this.H2A.FlatAppearance.BorderSize = 0;
             this.H2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.H2A.Location = new System.Drawing.Point(56, 177);
             this.H2A.Name = "H2A";
@@ -96,8 +97,9 @@ namespace _7_Segment_Clock
             // 
             // H2B
             // 
+            this.H2B.FlatAppearance.BorderSize = 0;
             this.H2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H2B.Location = new System.Drawing.Point(129, 195);
+            this.H2B.Location = new System.Drawing.Point(130, 195);
             this.H2B.Name = "H2B";
             this.H2B.Size = new System.Drawing.Size(20, 75);
             this.H2B.TabIndex = 1;
@@ -107,8 +109,9 @@ namespace _7_Segment_Clock
             // 
             // H2F
             // 
+            this.H2F.FlatAppearance.BorderSize = 0;
             this.H2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H2F.Location = new System.Drawing.Point(38, 195);
+            this.H2F.Location = new System.Drawing.Point(37, 195);
             this.H2F.Name = "H2F";
             this.H2F.Size = new System.Drawing.Size(20, 75);
             this.H2F.TabIndex = 2;
@@ -118,6 +121,7 @@ namespace _7_Segment_Clock
             // 
             // H2G
             // 
+            this.H2G.FlatAppearance.BorderSize = 0;
             this.H2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.H2G.Location = new System.Drawing.Point(56, 267);
             this.H2G.Name = "H2G";
@@ -129,6 +133,7 @@ namespace _7_Segment_Clock
             // 
             // H2D
             // 
+            this.H2D.FlatAppearance.BorderSize = 0;
             this.H2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.H2D.Location = new System.Drawing.Point(56, 358);
             this.H2D.Name = "H2D";
@@ -140,8 +145,9 @@ namespace _7_Segment_Clock
             // 
             // H2E
             // 
+            this.H2E.FlatAppearance.BorderSize = 0;
             this.H2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H2E.Location = new System.Drawing.Point(38, 285);
+            this.H2E.Location = new System.Drawing.Point(37, 285);
             this.H2E.Name = "H2E";
             this.H2E.Size = new System.Drawing.Size(20, 75);
             this.H2E.TabIndex = 5;
@@ -151,8 +157,9 @@ namespace _7_Segment_Clock
             // 
             // H2C
             // 
+            this.H2C.FlatAppearance.BorderSize = 0;
             this.H2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H2C.Location = new System.Drawing.Point(129, 285);
+            this.H2C.Location = new System.Drawing.Point(130, 285);
             this.H2C.Name = "H2C";
             this.H2C.Size = new System.Drawing.Size(20, 75);
             this.H2C.TabIndex = 4;
@@ -162,6 +169,7 @@ namespace _7_Segment_Clock
             // 
             // H1D
             // 
+            this.H1D.FlatAppearance.BorderSize = 0;
             this.H1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.H1D.Location = new System.Drawing.Point(187, 358);
             this.H1D.Name = "H1D";
@@ -173,8 +181,9 @@ namespace _7_Segment_Clock
             // 
             // H1E
             // 
+            this.H1E.FlatAppearance.BorderSize = 0;
             this.H1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H1E.Location = new System.Drawing.Point(169, 285);
+            this.H1E.Location = new System.Drawing.Point(168, 285);
             this.H1E.Name = "H1E";
             this.H1E.Size = new System.Drawing.Size(20, 75);
             this.H1E.TabIndex = 12;
@@ -184,8 +193,9 @@ namespace _7_Segment_Clock
             // 
             // H1C
             // 
+            this.H1C.FlatAppearance.BorderSize = 0;
             this.H1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H1C.Location = new System.Drawing.Point(260, 285);
+            this.H1C.Location = new System.Drawing.Point(261, 285);
             this.H1C.Name = "H1C";
             this.H1C.Size = new System.Drawing.Size(20, 75);
             this.H1C.TabIndex = 11;
@@ -195,6 +205,7 @@ namespace _7_Segment_Clock
             // 
             // H1G
             // 
+            this.H1G.FlatAppearance.BorderSize = 0;
             this.H1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.H1G.Location = new System.Drawing.Point(187, 267);
             this.H1G.Name = "H1G";
@@ -206,8 +217,9 @@ namespace _7_Segment_Clock
             // 
             // H1F
             // 
+            this.H1F.FlatAppearance.BorderSize = 0;
             this.H1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H1F.Location = new System.Drawing.Point(169, 195);
+            this.H1F.Location = new System.Drawing.Point(168, 195);
             this.H1F.Name = "H1F";
             this.H1F.Size = new System.Drawing.Size(20, 75);
             this.H1F.TabIndex = 9;
@@ -217,8 +229,9 @@ namespace _7_Segment_Clock
             // 
             // H1B
             // 
+            this.H1B.FlatAppearance.BorderSize = 0;
             this.H1B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.H1B.Location = new System.Drawing.Point(260, 195);
+            this.H1B.Location = new System.Drawing.Point(261, 195);
             this.H1B.Name = "H1B";
             this.H1B.Size = new System.Drawing.Size(20, 75);
             this.H1B.TabIndex = 8;
@@ -228,6 +241,7 @@ namespace _7_Segment_Clock
             // 
             // H1A
             // 
+            this.H1A.FlatAppearance.BorderSize = 0;
             this.H1A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.H1A.Location = new System.Drawing.Point(187, 177);
             this.H1A.Name = "H1A";
@@ -239,6 +253,7 @@ namespace _7_Segment_Clock
             // 
             // M2D
             // 
+            this.M2D.FlatAppearance.BorderSize = 0;
             this.M2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.M2D.Location = new System.Drawing.Point(410, 358);
             this.M2D.Name = "M2D";
@@ -250,8 +265,9 @@ namespace _7_Segment_Clock
             // 
             // M2E
             // 
+            this.M2E.FlatAppearance.BorderSize = 0;
             this.M2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M2E.Location = new System.Drawing.Point(392, 285);
+            this.M2E.Location = new System.Drawing.Point(391, 285);
             this.M2E.Name = "M2E";
             this.M2E.Size = new System.Drawing.Size(20, 75);
             this.M2E.TabIndex = 19;
@@ -261,8 +277,9 @@ namespace _7_Segment_Clock
             // 
             // M2C
             // 
+            this.M2C.FlatAppearance.BorderSize = 0;
             this.M2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M2C.Location = new System.Drawing.Point(483, 285);
+            this.M2C.Location = new System.Drawing.Point(484, 285);
             this.M2C.Name = "M2C";
             this.M2C.Size = new System.Drawing.Size(20, 75);
             this.M2C.TabIndex = 18;
@@ -272,6 +289,7 @@ namespace _7_Segment_Clock
             // 
             // M2G
             // 
+            this.M2G.FlatAppearance.BorderSize = 0;
             this.M2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.M2G.Location = new System.Drawing.Point(410, 267);
             this.M2G.Name = "M2G";
@@ -283,8 +301,9 @@ namespace _7_Segment_Clock
             // 
             // M2F
             // 
+            this.M2F.FlatAppearance.BorderSize = 0;
             this.M2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M2F.Location = new System.Drawing.Point(392, 195);
+            this.M2F.Location = new System.Drawing.Point(391, 195);
             this.M2F.Name = "M2F";
             this.M2F.Size = new System.Drawing.Size(20, 75);
             this.M2F.TabIndex = 16;
@@ -294,8 +313,9 @@ namespace _7_Segment_Clock
             // 
             // M2B
             // 
+            this.M2B.FlatAppearance.BorderSize = 0;
             this.M2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M2B.Location = new System.Drawing.Point(483, 195);
+            this.M2B.Location = new System.Drawing.Point(484, 195);
             this.M2B.Name = "M2B";
             this.M2B.Size = new System.Drawing.Size(20, 75);
             this.M2B.TabIndex = 15;
@@ -305,6 +325,7 @@ namespace _7_Segment_Clock
             // 
             // M2A
             // 
+            this.M2A.FlatAppearance.BorderSize = 0;
             this.M2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.M2A.Location = new System.Drawing.Point(410, 177);
             this.M2A.Name = "M2A";
@@ -316,6 +337,7 @@ namespace _7_Segment_Clock
             // 
             // M1D
             // 
+            this.M1D.FlatAppearance.BorderSize = 0;
             this.M1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.M1D.Location = new System.Drawing.Point(539, 358);
             this.M1D.Name = "M1D";
@@ -327,8 +349,9 @@ namespace _7_Segment_Clock
             // 
             // M1E
             // 
+            this.M1E.FlatAppearance.BorderSize = 0;
             this.M1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M1E.Location = new System.Drawing.Point(521, 285);
+            this.M1E.Location = new System.Drawing.Point(520, 285);
             this.M1E.Name = "M1E";
             this.M1E.Size = new System.Drawing.Size(20, 75);
             this.M1E.TabIndex = 26;
@@ -338,8 +361,9 @@ namespace _7_Segment_Clock
             // 
             // M1C
             // 
+            this.M1C.FlatAppearance.BorderSize = 0;
             this.M1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M1C.Location = new System.Drawing.Point(612, 285);
+            this.M1C.Location = new System.Drawing.Point(613, 285);
             this.M1C.Name = "M1C";
             this.M1C.Size = new System.Drawing.Size(20, 75);
             this.M1C.TabIndex = 25;
@@ -349,6 +373,7 @@ namespace _7_Segment_Clock
             // 
             // M1G
             // 
+            this.M1G.FlatAppearance.BorderSize = 0;
             this.M1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.M1G.Location = new System.Drawing.Point(539, 267);
             this.M1G.Name = "M1G";
@@ -360,8 +385,9 @@ namespace _7_Segment_Clock
             // 
             // M1F
             // 
+            this.M1F.FlatAppearance.BorderSize = 0;
             this.M1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M1F.Location = new System.Drawing.Point(521, 195);
+            this.M1F.Location = new System.Drawing.Point(520, 195);
             this.M1F.Name = "M1F";
             this.M1F.Size = new System.Drawing.Size(20, 75);
             this.M1F.TabIndex = 23;
@@ -371,8 +397,9 @@ namespace _7_Segment_Clock
             // 
             // M1B
             // 
+            this.M1B.FlatAppearance.BorderSize = 0;
             this.M1B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.M1B.Location = new System.Drawing.Point(612, 195);
+            this.M1B.Location = new System.Drawing.Point(613, 195);
             this.M1B.Name = "M1B";
             this.M1B.Size = new System.Drawing.Size(20, 75);
             this.M1B.TabIndex = 22;
@@ -382,6 +409,7 @@ namespace _7_Segment_Clock
             // 
             // M1A
             // 
+            this.M1A.FlatAppearance.BorderSize = 0;
             this.M1A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.M1A.Location = new System.Drawing.Point(539, 177);
             this.M1A.Name = "M1A";
@@ -393,6 +421,7 @@ namespace _7_Segment_Clock
             // 
             // S2D
             // 
+            this.S2D.FlatAppearance.BorderSize = 0;
             this.S2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.S2D.Location = new System.Drawing.Point(762, 358);
             this.S2D.Name = "S2D";
@@ -404,8 +433,9 @@ namespace _7_Segment_Clock
             // 
             // S2E
             // 
+            this.S2E.FlatAppearance.BorderSize = 0;
             this.S2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S2E.Location = new System.Drawing.Point(744, 285);
+            this.S2E.Location = new System.Drawing.Point(743, 285);
             this.S2E.Name = "S2E";
             this.S2E.Size = new System.Drawing.Size(20, 75);
             this.S2E.TabIndex = 33;
@@ -415,8 +445,9 @@ namespace _7_Segment_Clock
             // 
             // S2C
             // 
+            this.S2C.FlatAppearance.BorderSize = 0;
             this.S2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S2C.Location = new System.Drawing.Point(835, 285);
+            this.S2C.Location = new System.Drawing.Point(836, 285);
             this.S2C.Name = "S2C";
             this.S2C.Size = new System.Drawing.Size(20, 75);
             this.S2C.TabIndex = 32;
@@ -426,6 +457,7 @@ namespace _7_Segment_Clock
             // 
             // S2G
             // 
+            this.S2G.FlatAppearance.BorderSize = 0;
             this.S2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.S2G.Location = new System.Drawing.Point(762, 267);
             this.S2G.Name = "S2G";
@@ -437,8 +469,9 @@ namespace _7_Segment_Clock
             // 
             // S2F
             // 
+            this.S2F.FlatAppearance.BorderSize = 0;
             this.S2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S2F.Location = new System.Drawing.Point(744, 195);
+            this.S2F.Location = new System.Drawing.Point(743, 195);
             this.S2F.Name = "S2F";
             this.S2F.Size = new System.Drawing.Size(20, 75);
             this.S2F.TabIndex = 30;
@@ -448,8 +481,9 @@ namespace _7_Segment_Clock
             // 
             // S2B
             // 
+            this.S2B.FlatAppearance.BorderSize = 0;
             this.S2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S2B.Location = new System.Drawing.Point(835, 195);
+            this.S2B.Location = new System.Drawing.Point(836, 195);
             this.S2B.Name = "S2B";
             this.S2B.Size = new System.Drawing.Size(20, 75);
             this.S2B.TabIndex = 29;
@@ -459,6 +493,7 @@ namespace _7_Segment_Clock
             // 
             // S2A
             // 
+            this.S2A.FlatAppearance.BorderSize = 0;
             this.S2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.S2A.Location = new System.Drawing.Point(762, 177);
             this.S2A.Name = "S2A";
@@ -470,6 +505,7 @@ namespace _7_Segment_Clock
             // 
             // S1D
             // 
+            this.S1D.FlatAppearance.BorderSize = 0;
             this.S1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.S1D.Location = new System.Drawing.Point(891, 358);
             this.S1D.Name = "S1D";
@@ -481,8 +517,9 @@ namespace _7_Segment_Clock
             // 
             // S1E
             // 
+            this.S1E.FlatAppearance.BorderSize = 0;
             this.S1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S1E.Location = new System.Drawing.Point(873, 285);
+            this.S1E.Location = new System.Drawing.Point(872, 285);
             this.S1E.Name = "S1E";
             this.S1E.Size = new System.Drawing.Size(20, 75);
             this.S1E.TabIndex = 40;
@@ -492,8 +529,9 @@ namespace _7_Segment_Clock
             // 
             // S1C
             // 
+            this.S1C.FlatAppearance.BorderSize = 0;
             this.S1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S1C.Location = new System.Drawing.Point(964, 285);
+            this.S1C.Location = new System.Drawing.Point(965, 285);
             this.S1C.Name = "S1C";
             this.S1C.Size = new System.Drawing.Size(20, 75);
             this.S1C.TabIndex = 39;
@@ -503,8 +541,9 @@ namespace _7_Segment_Clock
             // 
             // S1G
             // 
+            this.S1G.FlatAppearance.BorderSize = 0;
             this.S1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S1G.Location = new System.Drawing.Point(891, 267);
+            this.S1G.Location = new System.Drawing.Point(891, 268);
             this.S1G.Name = "S1G";
             this.S1G.Size = new System.Drawing.Size(75, 20);
             this.S1G.TabIndex = 38;
@@ -514,8 +553,9 @@ namespace _7_Segment_Clock
             // 
             // S1F
             // 
+            this.S1F.FlatAppearance.BorderSize = 0;
             this.S1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S1F.Location = new System.Drawing.Point(873, 195);
+            this.S1F.Location = new System.Drawing.Point(872, 195);
             this.S1F.Name = "S1F";
             this.S1F.Size = new System.Drawing.Size(20, 75);
             this.S1F.TabIndex = 37;
@@ -525,8 +565,9 @@ namespace _7_Segment_Clock
             // 
             // S1B
             // 
+            this.S1B.FlatAppearance.BorderSize = 0;
             this.S1B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S1B.Location = new System.Drawing.Point(964, 195);
+            this.S1B.Location = new System.Drawing.Point(965, 195);
             this.S1B.Name = "S1B";
             this.S1B.Size = new System.Drawing.Size(20, 75);
             this.S1B.TabIndex = 36;
@@ -536,8 +577,9 @@ namespace _7_Segment_Clock
             // 
             // S1A
             // 
+            this.S1A.FlatAppearance.BorderSize = 0;
             this.S1A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.S1A.Location = new System.Drawing.Point(891, 177);
+            this.S1A.Location = new System.Drawing.Point(891, 176);
             this.S1A.Name = "S1A";
             this.S1A.Size = new System.Drawing.Size(75, 20);
             this.S1A.TabIndex = 35;
@@ -548,6 +590,7 @@ namespace _7_Segment_Clock
             // button43
             // 
             this.button43.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button43.FlatAppearance.BorderSize = 0;
             this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button43.Location = new System.Drawing.Point(325, 221);
             this.button43.Name = "button43";
@@ -558,6 +601,7 @@ namespace _7_Segment_Clock
             // button44
             // 
             this.button44.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button44.FlatAppearance.BorderSize = 0;
             this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button44.Location = new System.Drawing.Point(325, 308);
             this.button44.Name = "button44";
@@ -568,6 +612,7 @@ namespace _7_Segment_Clock
             // button45
             // 
             this.button45.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button45.FlatAppearance.BorderSize = 0;
             this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button45.Location = new System.Drawing.Point(676, 308);
             this.button45.Name = "button45";
@@ -578,6 +623,7 @@ namespace _7_Segment_Clock
             // button46
             // 
             this.button46.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button46.FlatAppearance.BorderSize = 0;
             this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button46.Location = new System.Drawing.Point(676, 221);
             this.button46.Name = "button46";
