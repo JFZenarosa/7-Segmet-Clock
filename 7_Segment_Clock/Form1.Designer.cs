@@ -29,6 +29,7 @@ namespace _7_Segment_Clock
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.H2A = new System.Windows.Forms.Button();
             this.H2B = new System.Windows.Forms.Button();
             this.H2F = new System.Windows.Forms.Button();
@@ -75,6 +76,7 @@ namespace _7_Segment_Clock
             this.button44 = new System.Windows.Forms.Button();
             this.button45 = new System.Windows.Forms.Button();
             this.button46 = new System.Windows.Forms.Button();
+            this.clock = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // H2A
@@ -85,6 +87,7 @@ namespace _7_Segment_Clock
             this.H2A.TabIndex = 0;
             this.H2A.Text = "A";
             this.H2A.UseVisualStyleBackColor = true;
+            this.H2A.Click += new System.EventHandler(this.numbers);
             // 
             // H2B
             // 
@@ -94,6 +97,7 @@ namespace _7_Segment_Clock
             this.H2B.TabIndex = 1;
             this.H2B.Text = "B";
             this.H2B.UseVisualStyleBackColor = true;
+            this.H2B.Click += new System.EventHandler(this.numbers);
             // 
             // H2F
             // 
@@ -103,6 +107,7 @@ namespace _7_Segment_Clock
             this.H2F.TabIndex = 2;
             this.H2F.Text = "F";
             this.H2F.UseVisualStyleBackColor = true;
+            this.H2F.Click += new System.EventHandler(this.numbers);
             // 
             // H2G
             // 
@@ -112,6 +117,7 @@ namespace _7_Segment_Clock
             this.H2G.TabIndex = 3;
             this.H2G.Text = "G";
             this.H2G.UseVisualStyleBackColor = true;
+            this.H2G.Click += new System.EventHandler(this.numbers);
             // 
             // H2D
             // 
@@ -121,6 +127,7 @@ namespace _7_Segment_Clock
             this.H2D.TabIndex = 6;
             this.H2D.Text = "D";
             this.H2D.UseVisualStyleBackColor = true;
+            this.H2D.Click += new System.EventHandler(this.numbers);
             // 
             // H2E
             // 
@@ -130,6 +137,7 @@ namespace _7_Segment_Clock
             this.H2E.TabIndex = 5;
             this.H2E.Text = "E";
             this.H2E.UseVisualStyleBackColor = true;
+            this.H2E.Click += new System.EventHandler(this.numbers);
             // 
             // H2C
             // 
@@ -139,6 +147,7 @@ namespace _7_Segment_Clock
             this.H2C.TabIndex = 4;
             this.H2C.Text = "C";
             this.H2C.UseVisualStyleBackColor = true;
+            this.H2C.Click += new System.EventHandler(this.numbers);
             // 
             // H1D
             // 
@@ -148,6 +157,7 @@ namespace _7_Segment_Clock
             this.H1D.TabIndex = 13;
             this.H1D.Text = "D";
             this.H1D.UseVisualStyleBackColor = true;
+            this.H1D.Click += new System.EventHandler(this.numbers);
             // 
             // H1E
             // 
@@ -157,6 +167,7 @@ namespace _7_Segment_Clock
             this.H1E.TabIndex = 12;
             this.H1E.Text = "E";
             this.H1E.UseVisualStyleBackColor = true;
+            this.H1E.Click += new System.EventHandler(this.numbers);
             // 
             // H1C
             // 
@@ -166,6 +177,7 @@ namespace _7_Segment_Clock
             this.H1C.TabIndex = 11;
             this.H1C.Text = "C";
             this.H1C.UseVisualStyleBackColor = true;
+            this.H1C.Click += new System.EventHandler(this.numbers);
             // 
             // H1G
             // 
@@ -175,6 +187,7 @@ namespace _7_Segment_Clock
             this.H1G.TabIndex = 10;
             this.H1G.Text = "G";
             this.H1G.UseVisualStyleBackColor = true;
+            this.H1G.Click += new System.EventHandler(this.numbers);
             // 
             // H1F
             // 
@@ -184,6 +197,7 @@ namespace _7_Segment_Clock
             this.H1F.TabIndex = 9;
             this.H1F.Text = "F";
             this.H1F.UseVisualStyleBackColor = true;
+            this.H1F.Click += new System.EventHandler(this.numbers);
             // 
             // H1B
             // 
@@ -193,6 +207,7 @@ namespace _7_Segment_Clock
             this.H1B.TabIndex = 8;
             this.H1B.Text = "B";
             this.H1B.UseVisualStyleBackColor = true;
+            this.H1B.Click += new System.EventHandler(this.numbers);
             // 
             // H1A
             // 
@@ -202,6 +217,7 @@ namespace _7_Segment_Clock
             this.H1A.TabIndex = 7;
             this.H1A.Text = "A";
             this.H1A.UseVisualStyleBackColor = true;
+            this.H1A.Click += new System.EventHandler(this.numbers);
             // 
             // M2D
             // 
@@ -211,6 +227,7 @@ namespace _7_Segment_Clock
             this.M2D.TabIndex = 20;
             this.M2D.Text = "D";
             this.M2D.UseVisualStyleBackColor = true;
+            this.M2D.Click += new System.EventHandler(this.numbers);
             // 
             // M2E
             // 
@@ -220,6 +237,7 @@ namespace _7_Segment_Clock
             this.M2E.TabIndex = 19;
             this.M2E.Text = "E";
             this.M2E.UseVisualStyleBackColor = true;
+            this.M2E.Click += new System.EventHandler(this.numbers);
             // 
             // M2C
             // 
@@ -229,6 +247,7 @@ namespace _7_Segment_Clock
             this.M2C.TabIndex = 18;
             this.M2C.Text = "C";
             this.M2C.UseVisualStyleBackColor = true;
+            this.M2C.Click += new System.EventHandler(this.numbers);
             // 
             // M2G
             // 
@@ -238,6 +257,7 @@ namespace _7_Segment_Clock
             this.M2G.TabIndex = 17;
             this.M2G.Text = "G";
             this.M2G.UseVisualStyleBackColor = true;
+            this.M2G.Click += new System.EventHandler(this.numbers);
             // 
             // M2F
             // 
@@ -247,6 +267,7 @@ namespace _7_Segment_Clock
             this.M2F.TabIndex = 16;
             this.M2F.Text = "F";
             this.M2F.UseVisualStyleBackColor = true;
+            this.M2F.Click += new System.EventHandler(this.numbers);
             // 
             // M2B
             // 
@@ -256,6 +277,7 @@ namespace _7_Segment_Clock
             this.M2B.TabIndex = 15;
             this.M2B.Text = "B";
             this.M2B.UseVisualStyleBackColor = true;
+            this.M2B.Click += new System.EventHandler(this.numbers);
             // 
             // M2A
             // 
@@ -265,6 +287,7 @@ namespace _7_Segment_Clock
             this.M2A.TabIndex = 14;
             this.M2A.Text = "A";
             this.M2A.UseVisualStyleBackColor = true;
+            this.M2A.Click += new System.EventHandler(this.numbers);
             // 
             // M1D
             // 
@@ -274,6 +297,7 @@ namespace _7_Segment_Clock
             this.M1D.TabIndex = 27;
             this.M1D.Text = "D";
             this.M1D.UseVisualStyleBackColor = true;
+            this.M1D.Click += new System.EventHandler(this.numbers);
             // 
             // M1E
             // 
@@ -283,6 +307,7 @@ namespace _7_Segment_Clock
             this.M1E.TabIndex = 26;
             this.M1E.Text = "E";
             this.M1E.UseVisualStyleBackColor = true;
+            this.M1E.Click += new System.EventHandler(this.numbers);
             // 
             // M1C
             // 
@@ -292,6 +317,7 @@ namespace _7_Segment_Clock
             this.M1C.TabIndex = 25;
             this.M1C.Text = "C";
             this.M1C.UseVisualStyleBackColor = true;
+            this.M1C.Click += new System.EventHandler(this.numbers);
             // 
             // M1G
             // 
@@ -301,6 +327,7 @@ namespace _7_Segment_Clock
             this.M1G.TabIndex = 24;
             this.M1G.Text = "G";
             this.M1G.UseVisualStyleBackColor = true;
+            this.M1G.Click += new System.EventHandler(this.numbers);
             // 
             // M1F
             // 
@@ -310,6 +337,7 @@ namespace _7_Segment_Clock
             this.M1F.TabIndex = 23;
             this.M1F.Text = "F";
             this.M1F.UseVisualStyleBackColor = true;
+            this.M1F.Click += new System.EventHandler(this.numbers);
             // 
             // M1B
             // 
@@ -319,6 +347,7 @@ namespace _7_Segment_Clock
             this.M1B.TabIndex = 22;
             this.M1B.Text = "B";
             this.M1B.UseVisualStyleBackColor = true;
+            this.M1B.Click += new System.EventHandler(this.numbers);
             // 
             // M1A
             // 
@@ -328,6 +357,7 @@ namespace _7_Segment_Clock
             this.M1A.TabIndex = 21;
             this.M1A.Text = "A";
             this.M1A.UseVisualStyleBackColor = true;
+            this.M1A.Click += new System.EventHandler(this.numbers);
             // 
             // S2D
             // 
@@ -337,6 +367,7 @@ namespace _7_Segment_Clock
             this.S2D.TabIndex = 34;
             this.S2D.Text = "D";
             this.S2D.UseVisualStyleBackColor = true;
+            this.S2D.Click += new System.EventHandler(this.numbers);
             // 
             // S2E
             // 
@@ -346,6 +377,7 @@ namespace _7_Segment_Clock
             this.S2E.TabIndex = 33;
             this.S2E.Text = "E";
             this.S2E.UseVisualStyleBackColor = true;
+            this.S2E.Click += new System.EventHandler(this.numbers);
             // 
             // S2C
             // 
@@ -355,6 +387,7 @@ namespace _7_Segment_Clock
             this.S2C.TabIndex = 32;
             this.S2C.Text = "C";
             this.S2C.UseVisualStyleBackColor = true;
+            this.S2C.Click += new System.EventHandler(this.numbers);
             // 
             // S2G
             // 
@@ -364,6 +397,7 @@ namespace _7_Segment_Clock
             this.S2G.TabIndex = 31;
             this.S2G.Text = "G";
             this.S2G.UseVisualStyleBackColor = true;
+            this.S2G.Click += new System.EventHandler(this.numbers);
             // 
             // S2F
             // 
@@ -373,6 +407,7 @@ namespace _7_Segment_Clock
             this.S2F.TabIndex = 30;
             this.S2F.Text = "F";
             this.S2F.UseVisualStyleBackColor = true;
+            this.S2F.Click += new System.EventHandler(this.numbers);
             // 
             // S2B
             // 
@@ -382,6 +417,7 @@ namespace _7_Segment_Clock
             this.S2B.TabIndex = 29;
             this.S2B.Text = "B";
             this.S2B.UseVisualStyleBackColor = true;
+            this.S2B.Click += new System.EventHandler(this.numbers);
             // 
             // S2A
             // 
@@ -391,6 +427,7 @@ namespace _7_Segment_Clock
             this.S2A.TabIndex = 28;
             this.S2A.Text = "A";
             this.S2A.UseVisualStyleBackColor = true;
+            this.S2A.Click += new System.EventHandler(this.numbers);
             // 
             // S1D
             // 
@@ -400,6 +437,7 @@ namespace _7_Segment_Clock
             this.S1D.TabIndex = 41;
             this.S1D.Text = "D";
             this.S1D.UseVisualStyleBackColor = true;
+            this.S1D.Click += new System.EventHandler(this.numbers);
             // 
             // S1E
             // 
@@ -409,6 +447,7 @@ namespace _7_Segment_Clock
             this.S1E.TabIndex = 40;
             this.S1E.Text = "E";
             this.S1E.UseVisualStyleBackColor = true;
+            this.S1E.Click += new System.EventHandler(this.numbers);
             // 
             // S1C
             // 
@@ -418,6 +457,7 @@ namespace _7_Segment_Clock
             this.S1C.TabIndex = 39;
             this.S1C.Text = "C";
             this.S1C.UseVisualStyleBackColor = true;
+            this.S1C.Click += new System.EventHandler(this.numbers);
             // 
             // S1G
             // 
@@ -427,6 +467,7 @@ namespace _7_Segment_Clock
             this.S1G.TabIndex = 38;
             this.S1G.Text = "G";
             this.S1G.UseVisualStyleBackColor = true;
+            this.S1G.Click += new System.EventHandler(this.numbers);
             // 
             // S1F
             // 
@@ -436,6 +477,7 @@ namespace _7_Segment_Clock
             this.S1F.TabIndex = 37;
             this.S1F.Text = "F";
             this.S1F.UseVisualStyleBackColor = true;
+            this.S1F.Click += new System.EventHandler(this.numbers);
             // 
             // S1B
             // 
@@ -445,6 +487,7 @@ namespace _7_Segment_Clock
             this.S1B.TabIndex = 36;
             this.S1B.Text = "B";
             this.S1B.UseVisualStyleBackColor = true;
+            this.S1B.Click += new System.EventHandler(this.numbers);
             // 
             // S1A
             // 
@@ -454,6 +497,7 @@ namespace _7_Segment_Clock
             this.S1A.TabIndex = 35;
             this.S1A.Text = "A";
             this.S1A.UseVisualStyleBackColor = true;
+            this.S1A.Click += new System.EventHandler(this.numbers);
             // 
             // button43
             // 
@@ -490,6 +534,12 @@ namespace _7_Segment_Clock
             this.button46.Size = new System.Drawing.Size(25, 25);
             this.button46.TabIndex = 44;
             this.button46.UseVisualStyleBackColor = false;
+            // 
+            // clock
+            // 
+            this.clock.Enabled = true;
+            this.clock.Interval = 1;
+            this.clock.Tick += new System.EventHandler(this.clock_Tick);
             // 
             // Form1
             // 
@@ -596,6 +646,7 @@ namespace _7_Segment_Clock
         private System.Windows.Forms.Button button44;
         private System.Windows.Forms.Button button45;
         private System.Windows.Forms.Button button46;
+        private System.Windows.Forms.Timer clock;
     }
 }
 
