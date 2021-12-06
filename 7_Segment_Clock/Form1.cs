@@ -23,6 +23,9 @@ namespace _7_Segment_Clock
         int minutes2;
         string min2;
 
+        int hours;
+        string hr;
+
         public Form1()
         {
             InitializeComponent();
@@ -31,7 +34,7 @@ namespace _7_Segment_Clock
         private void numbers(object sender, EventArgs e)
         {
             Button timeon = (Button)sender;
-            timeon.BackColor = System.Drawing.Color.Black;
+            timeon.BackColor = System.Drawing.Color.DarkBlue;
         }
 
         private void clock_Tick(object sender, EventArgs e)
@@ -401,6 +404,121 @@ namespace _7_Segment_Clock
                 M2F.PerformClick();
                 M2G.PerformClick();
             }
+
+
+            hr = DateTime.Now.ToString("HH");
+            hours = Convert.ToInt32(hr.Substring(hr.Length - 1));
+
+            if (hours == 0)
+            {
+                H1A.PerformClick();
+                H1B.PerformClick();
+                H1C.PerformClick();
+                H1D.PerformClick();
+                H1E.PerformClick();
+                H1F.PerformClick();
+                H1G.UseVisualStyleBackColor = true;
+            }
+
+            else if (hours == 1)
+            {
+                H1A.UseVisualStyleBackColor = true;
+                H1B.PerformClick();
+                H1C.PerformClick();
+                H1D.UseVisualStyleBackColor = true;
+                H1E.UseVisualStyleBackColor = true;
+                H1F.UseVisualStyleBackColor = true;
+                H1G.UseVisualStyleBackColor = true;
+            }
+
+            else if (hours == 2)
+            {
+                H1A.PerformClick();
+                H1B.PerformClick();
+                H1C.UseVisualStyleBackColor = true;
+                H1D.PerformClick();
+                H1E.PerformClick();
+                H1F.UseVisualStyleBackColor = true;
+                H1G.PerformClick();
+            }
+
+            else if (hours == 3)
+            {
+                H1A.PerformClick();
+                H1B.PerformClick();
+                H1C.PerformClick();
+                H1D.PerformClick();
+                H1E.UseVisualStyleBackColor = true;
+                H1F.UseVisualStyleBackColor = true;
+                H1G.PerformClick();
+            }
+
+            else if (hours == 4)
+            {
+                H1A.UseVisualStyleBackColor = true;
+                H1B.PerformClick();
+                H1C.PerformClick();
+                H1D.UseVisualStyleBackColor = true;
+                H1E.UseVisualStyleBackColor = true;
+                H1F.PerformClick();
+                H1G.PerformClick();
+            }
+
+            else if (hours == 5)
+            {
+                H1A.PerformClick();
+                H1B.UseVisualStyleBackColor = true;
+                H1C.PerformClick();
+                H1D.PerformClick();
+                H1E.UseVisualStyleBackColor = true;
+                H1F.PerformClick();
+                H1G.PerformClick();
+            }
+
+            else if (hours == 6)
+            {
+                H1A.PerformClick();
+                H1B.UseVisualStyleBackColor = true;
+                H1C.PerformClick();
+                H1D.PerformClick();
+                H1E.PerformClick();
+                H1F.PerformClick();
+                H1G.PerformClick();
+            }
+
+            else if (hours == 7)
+            {
+                H1A.PerformClick();
+                H1B.PerformClick();
+                H1C.PerformClick();
+                H1D.UseVisualStyleBackColor = true;
+                H1E.UseVisualStyleBackColor = true;
+                H1F.UseVisualStyleBackColor = true;
+                H1G.UseVisualStyleBackColor = true;
+            }
+
+            else if (hours == 8)
+            {
+                H1A.PerformClick();
+                H1B.PerformClick();
+                H1C.PerformClick();
+                H1D.PerformClick();
+                H1E.PerformClick();
+                H1F.PerformClick();
+                H1G.PerformClick();
+            }
+
+            else if (hours == 9)
+            {
+                H1A.PerformClick();
+                H1B.PerformClick();
+                H1C.PerformClick();
+                H1D.PerformClick();
+                H1E.UseVisualStyleBackColor = true;
+                H1F.PerformClick();
+                H1G.PerformClick();
+            }
+
 
         }
 
