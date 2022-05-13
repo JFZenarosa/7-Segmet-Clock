@@ -32,6 +32,7 @@ namespace _7_Segment_Clock
         {
             InitializeComponent();
             MessageBox.Show("NAHACK KITA");
+            MessageBox.Show("NUTRIBUN KA NA");
         }
 
         private void numbers(object sender, EventArgs e)
