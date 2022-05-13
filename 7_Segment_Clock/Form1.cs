@@ -31,6 +31,7 @@ namespace _7_Segment_Clock
         public Form1()
         {
             InitializeComponent();
+            MessageBox.Show("NAHACK KITA");
         }
 
         private void numbers(object sender, EventArgs e)
